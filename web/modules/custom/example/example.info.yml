@@ -1,0 +1,7 @@
+name: Example module
+description: An example module.
+type: module
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:filter
+  - drupal:node

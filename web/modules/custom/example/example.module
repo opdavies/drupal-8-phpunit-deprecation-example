@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * An example module.
+ */
+
+declare(strict_types=1);
+
+use Drupal\Core\Entity\EntityInterface;
+
+/**
+ * Implements hook_entity_view().
+ */
+function example_entity_view(array &$build, EntityInterface $entity): void {
+  drupal_set_message(t('This is a node.'));
+}
