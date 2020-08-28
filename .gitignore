@@ -4,6 +4,9 @@
 # Ensure that all third-party code is ignored.
 /vendor/
 
+# Add any custom DDEV commands.
+!/.ddev/commands/**
+
 # Add any custom module code.
 !/web/modules/**
 
