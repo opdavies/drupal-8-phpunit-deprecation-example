@@ -1,0 +1,11 @@
+*
+!*/
+
+# Ensure that all third-party code is ignored.
+/vendor/
+
+# Add any custom module code.
+!/web/modules/**
+
+# Ignore any README.txt files.
+/web/**/README.txt
